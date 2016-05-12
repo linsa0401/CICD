@@ -53,7 +53,7 @@ def menu():
 	parser.add_option('-b', '--bucket_name',  dest='bucket_name',
 					default='mk-community', help='uplload bucket : ')  
 	parser.add_option('-r','--region' , dest = 'region' ,
-				default='eu-west-1', help = 'Region ')
+				default='cn-north-1', help = 'Region ')
 
 	options , args = parser.parse_args()
 	return options ,args
